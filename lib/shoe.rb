@@ -51,7 +51,6 @@ class Shoe
   def cobble 
     puts "Your shoe is as good as new"
     shoe_condition.each do |condition|
-      {|condition.new}
     end 
   end 
 end  
