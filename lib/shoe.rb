@@ -17,7 +17,7 @@ class Shoe
   end 
 
   
-  attr_accessor(:shoe_properties) :color, :size, :material, :condition 
+  attr_accessor{:shoe_properties [:color, :size, :material, :condition]} 
   
   
   def cobble 
