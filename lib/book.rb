@@ -43,9 +43,8 @@ class Book
   end 
 end
 
-Book.new("And Then There Were None")
-
-author.new("Agatha Christie")
+Book.new("And Then There Were None"
+"Agatha Christie" = Book.author
 
 Book.page_count(272)
 
