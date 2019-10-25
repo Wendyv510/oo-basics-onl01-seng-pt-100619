@@ -51,6 +51,7 @@ class Shoe
   def cobble 
     puts "Your shoe is as good as new"
     shoe_condition.each do |condition|
+      shoe_condition = "new"
     end 
   end 
 end  
