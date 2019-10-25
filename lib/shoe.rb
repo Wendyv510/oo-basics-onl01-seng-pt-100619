@@ -15,6 +15,9 @@ class Shoe
   def brand 
     @brand
   end 
+end 
+  
+  class Properties 
   
   def color(color)
     @color = color
