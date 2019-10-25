@@ -24,7 +24,7 @@ Book.new("And Then There Were None")
 
 Book.new("Agatha Christie")
 
-Book.page_count(272)
+Book.page_count("272")
 
 Book.genre("Mystery")
 
