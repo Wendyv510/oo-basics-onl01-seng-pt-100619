@@ -33,9 +33,13 @@ class Book
   end 
   
   def turn_page=(turn_page)
-    @turn_page 
-    counter 
+    @turn_page = turn_page 
+    counter += 1
     puts "Flipping the page ... wow, you read fast!"
+  end 
+  
+  def turn_page 
+    @turn_page 
   end 
 end
 
