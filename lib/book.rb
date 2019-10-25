@@ -43,8 +43,16 @@ class Book
   end 
 end
 
-book = Book.new("Some Title")
-book.turn_page 
+Book.new("And Then There Were None")
+
+Book.author("Agatha Christie")
+
+Book.page_count(272)
+
+Book.genre("Mystery")
+
+Book.new("The World According to Garp")
+Book.turn_page 
 
 
 
