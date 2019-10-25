@@ -8,7 +8,7 @@ class Shoe
     @brand
   end 
   
-  def properties(brand)
+  def brand(brand)
     @brand = brand
   end 
   
