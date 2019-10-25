@@ -44,7 +44,7 @@ class Book
 end
 
 Book.new("And Then There Were None"
-"Agatha Christie" = Book.author
+ Book.author("Agatha Christie")
 
 Book.page_count(272)
 
