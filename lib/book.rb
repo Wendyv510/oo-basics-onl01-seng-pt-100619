@@ -20,7 +20,7 @@ class Book
   end 
 end
 
-Book.new = "And Then There Were None"
+Book.new "And Then There Were None"
 AndThenThereWereNone.author = "Agatha Christie"
 AndThenThereWereNone.page_count = "272"
 AndThenThereWereNone.genre = "Mystery"
