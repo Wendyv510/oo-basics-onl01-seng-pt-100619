@@ -21,7 +21,7 @@ class Book
 end
 
 Book.new "And Then There Were None"
-Book.author  "Agatha Christie"
+"And Then There Were None".author  "Agatha Christie"
 AndThenThereWereNone.page_count  "272"
 AndThenThereWereNone.genre  "Mystery"
 
