@@ -28,3 +28,10 @@ class Shoe
   end 
 end  
 
+"Nike" = Shoe.new
+Nike.properties = "Nike"
+Nike.color = "Red"
+Nike.shoe_size = "9.5"
+Nike.material = "suede"
+Nike.shoe_condition = "tattered"
+Nike.cobble
