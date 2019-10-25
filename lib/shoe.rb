@@ -55,18 +55,3 @@ class Shoe
   end 
 end  
 
-Shoe.new("Nike")
-
-Shoe.new("Adidas")
-
-Shoe.brand("Nike")
-
-Shoe.color("Red")
-
-Shoe.shoe_size(9.5)
-
-Shoe.material("suede")
-
-Shoe.shoe_condition("tattered")
-
-Shoe.cobble 
